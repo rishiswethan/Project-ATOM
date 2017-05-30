@@ -60,5 +60,6 @@ Modify the following values in the settings of the app to fit your robot:
 
 * girdLength  //Grid length for a single grid. This must be the length of the robot
 
-Working of the robot:- 
+Working of the robot:- https://www.youtube.com/watch?v=MXez0jKtKuQ
+
 Email me at rishiswethan.c.r@gmail.com for any querys.
