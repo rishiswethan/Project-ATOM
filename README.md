@@ -4,7 +4,7 @@ LED.rar is an android studio project for the above mentioned app.
 
 ProjectATOM.ino has the arduino code.
 
-This robot uses a modification of A* algorithm to find the shortest path to the goal as it detects obstacles updates the square grid.
+This robot uses a modification of A* algorithm to find the shortest path to the goal as it detects obstacles and updates the square grid and finds the next shortest path considering the obstacles that were detected on it's path.
 Build/use a wheeled robot and use an arduino paired with a bluetooth module.
 Set the pins of the anduino as shown in the arduino code.
 
