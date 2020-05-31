@@ -6,9 +6,9 @@ ProjectATOM.ino has the arduino code.
 
 This robot uses a modification of A* algorithm to find the shortest path to the goal as it detects obstacles and updates the square grid and finds the next shortest path considering the obstacles that were detected on it's path.
 Build/use a wheeled robot and use an arduino paired with a bluetooth module.
-Set the pins of the anduino as shown in the arduino code.
+Set the pins of the arduino as shown in the arduino code.
 
-Feel free to modify the arduino code, but the folloing should be done:
+Feel free to modify the arduino code, but the following should be done:
 Commands from android to arduino:
 
   f - Move forward
@@ -37,7 +37,7 @@ Commands from arduino to android:
   
   a#      //The robot moves back the number of steps it moved, to the initial position, when an obstacle is detected when 'mf' command is sent. When the robot has completed the backward movement, a# has to be sent to android, to signal completion.
       
-The obstacle setting is completly your choice. You can use the 2 ultrasonic,ir sensors as in the code or add any other type of sensor.
+The obstacle setting is completely your choice. You can use the 2 ultrasonic,ir sensors as in the code or add any other type of sensor.
 By default, it uses ir sensor between the wheel for tracking movement.
 
 The communication between the android phone and arduino is done using the above commands.
